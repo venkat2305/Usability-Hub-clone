@@ -12,3 +12,4 @@
 
 1. top banner div to anchor tag
 2. Fonts
+3. `small-bold-text companies-header` above text behaves weirdly if it is in p tag
