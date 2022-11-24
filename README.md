@@ -11,4 +11,4 @@
 # To Do
 
 1. top banner div to anchor tag
-2.
+2. Fonts
