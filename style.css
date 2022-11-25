@@ -42,7 +42,8 @@ p {
 
 a {
   text-decoration: none;
-  display: inline;
+  display: inline-block;
+  /* check with only inline and only block */
 }
 
 ul {
@@ -141,11 +142,11 @@ ul {
 /* header */
 
 header {
-  padding: 50px var(--padding—inline—section) 0;
+  padding: 100px var(--padding—inline—section) 0;
 }
 
 .header-section {
-  justify-content: center;
+  /* justify-content: center; */
   gap: 50px;
 }
 
@@ -157,9 +158,9 @@ header {
   margin: 20px 0;
 }
 
-.header-left h1 {
+/* .header-left h1 {
   margin-top: 90px;
-}
+} */
 
 .header-right img {
   width: 600px;
@@ -183,40 +184,59 @@ header {
 
 /* features section */
 
-.features-section{
-    padding: 80px var(--padding—inline—section) 0;
-    background-image: url('assets/asset\ 32.svg');
-    background-repeat: no-repeat;
-    background-position: center;
+.features-section {
+  padding: 80px var(--padding—inline—section) 0;
+  background-image: url("assets/asset\ 32.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.features-header{
-    text-align: center;
-    margin-bottom: 30px;
+.features-header {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.features-header h2{
-    margin-bottom: 20px;
+.features-header h2 {
+  margin-bottom: 20px;
 }
 
-.features-area{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 20px;
+.features-area {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
 }
 
-.features-card{
-    flex-direction: column;
-    gap: 20px;
-    max-width: 30%;
-    text-align: center;
+.features-card {
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
 }
 
-.features-card a{
-    color: var(--primary—text—color);
+.features-card a {
+  color: var(--primary—text—color);
 }
 
-.features-card img{
-    width: 45px;
+.features-card img {
+  width: 45px;
+}
+
+/* big features  */
+
+.big-feature-section {
+  padding: 30px var(--padding—inline—section) 0;
+}
+
+.big-feature-container {
+  gap: 30px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+feature-desc {
+  flex-direction: column;
+  align-items: flex-start;
 }
